@@ -1,5 +1,8 @@
 import discord
+
+
 color = 0xFF001A
+
 key_features = {
     'temp' : 'Temperatura °C 🌡',
     'feels_like' : 'Se simte ca 🌡',
@@ -10,13 +13,15 @@ key_features = {
 def parse_data(data):
     data = data["main"]
     
-    del data["humidity"]
+    del data["humidity"]    
     del data["pressure"]
+    
     return data
 
 
 
 def weather_message(data,location): #embedded message
+  
   location = location.title()
   message=discord.Embed(title=f" Vremea in {location}",description=f"Vremea astazi in {location}:",color=color)
   
