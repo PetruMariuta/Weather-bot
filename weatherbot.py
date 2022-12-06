@@ -34,7 +34,7 @@ async def on_guild_join(guild):
     embed=discord.Embed(title="**Thanks For Adding Me! **", description="Hello @everyone, eu sunt un bot de vreme si voi afisa vremea zilnic la ora 6:00 in Bucuresti si Craiova, dar si prin comanda !ping.", color=0xd89522)
     await guild.text_channels[0].send(embed=embed)
     #id.append( guild.text_channels[0].id)    
-    #append channel ids when the bot joins different groups, i didn't intend for this bot to be used on unknown groups but it can, i tested it on a max of 5  groups
+    #append channels id when the bot joins different groups, i didn't intend for this bot to be used on unknown groups but it can, i tested it on a max of 5  groups
         
 
   
