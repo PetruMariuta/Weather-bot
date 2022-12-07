@@ -1,5 +1,5 @@
 # Weather-bot
-Discord weather bot
+Discord weather bot using asyncio
 The main purpose of the bot is to send messages with the weather forecast at a specific hour, and on command, weatherbot.py file is the bot , weather.py file is used to convert the raw data from the api so that only the temperatures are sent into the messages (without values such as humidity/wind speed/etc. , of course they can be added if needed).
 
 Attached photos present examples of the bot sending messages at desired hour, on joining server, and on "!ping" command.
